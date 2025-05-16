@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 483216680875.dkr.ecr.ap-south-1.amazonaws.com/hotstar:latest #apply rollback deployment after changing the version  
+          image: rajukolupula/hotstar:latest  #apply rollback deployment after changing the v  
           ports:
             - name: http
               containerPort: 8181
